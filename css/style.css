@@ -1,12 +1,53 @@
 /* Size and styling for carousel*/
 #Carousel {
-    width: 75%;
+    width: 900px;
     border-style: solid;
     margin: 0 auto;
 }
 
+.carousel .carousel-item {
+    height: 600px;
+}
+  
+.carousel-item img {
+      position: absolute;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      min-height: 600px;
+}
+
+header h1 {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+header h2 {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+}
+
+#topics_header {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+#sidebar {
+    /*position: fixed;*/
+    margin-left: -100px;
+}
+
 footer > ul, li {
-    display:inline
+    display: inline;
 }
 
 footer {

@@ -14,7 +14,7 @@
       object-fit: cover;
       top: 0;
       left: 0;
-      min-height: 600px;
+      height: 600px;
 }
 
 header h1 {
@@ -43,7 +43,11 @@ header h2 {
 
 #sidebar {
     /*position: fixed;*/
-    margin-left: -100px;
+    margin-top: 25px;
+}
+
+#topic_content div {
+    margin-top: 25px;
 }
 
 footer > ul, li {
@@ -60,3 +64,56 @@ footer {
     background-color: #f7f7f7;
 }
 
+@media only screen and (max-width: 550px) {
+    body {
+        overflow-x: hidden;
+      }
+
+    #Carousel {
+        margin-top: 135px;
+        width: 350px;
+        height: 200px;
+        border-style: solid;
+    }  
+
+    .carousel-inner .carousel-item {
+        height: 200px;
+        width: 350px;
+    }
+      
+    .carousel-inner .carousel-item img {
+          height: 200px;
+          width: 350px;
+    }
+
+    .carousel-item img {
+        position: absolute;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        height: 200px;
+        width: 350px;
+    }
+
+    aside {
+        width: 500px;
+    }
+
+    #topic_content {
+        width: 300px;
+    }
+    
+    #sidebar {
+        /*position: fixed;*/
+        margin-top: -10px;
+    }
+    
+    #topic_content div {
+        margin-top: -10px;
+        margin-bottom: 50px;
+    }
+
+    footer {
+        width: 100%;
+    }
+}

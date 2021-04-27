@@ -12,13 +12,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,500;1,100&display=swap" rel="stylesheet">
 
-    <!--CSS-->
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/grid.css">
 
     <title>EulerIO — Learn mathematics ad infinitum</title>
   </head>
   <body>
+
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">EulerIO</a>
@@ -30,6 +32,8 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
+
+            <!-- Dropdown elements with math topics -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="topics.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Topics
@@ -42,6 +46,8 @@
                 <li><a class="dropdown-item" href="#">Calculus</a></li>
               </ul>
             </li>
+
+            <!-- Dropdown elements with math history-->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 History
@@ -64,10 +70,12 @@
         </div>
       </div>
     </nav>  
+    
     <div class="container">
       <header id="index">
-        <h1>"There should be no such thing as boring mathematics."</h1>
-        <h2>— Edsger W. Dijkstra, Dutch computer scientist</h2>
+        <h1 id="quote">"There should be no such thing as boring mathematics."</h1>
+        <h2 id="author">— Edsger W. Dijkstra, Dutch computer scientist</h2>
+        <button type="button" class="btn btn-primary" onclick="change_quote()">Change</button>
       </header>
       <section id="index">
         <div id="Carousel" class="carousel slide" data-bs-ride="carousel">

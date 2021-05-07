@@ -7,7 +7,8 @@
     width: 600px;
     height: 400px;
 }
-  
+
+/* Adjusting the properties of the pictures*/
 .carousel-item img {
       position: absolute;
       object-fit: cover;
@@ -22,6 +23,9 @@
     width: fit-content;
 }
 
+/* Styling for the quote on the index.html page*/
+
+/* Adjusting the font and styling for the quote*/
 header h1 {
     width: 100%;
     font-family: 'Raleway', sans-serif;
@@ -29,6 +33,7 @@ header h1 {
     font-size: 30px;
 }
 
+/* Adjusting the font and styling for the description of the quote*/
 header h2 {
     width: 100%;
     text-align: center;
@@ -38,24 +43,20 @@ header h2 {
     font-size: 25px;
 }
 
-#topics_header {
-    width: 100%;
-    text-align: center;
-    vertical-align: middle;
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-}
-
+/* Adding space at the top of the list of topics*/
 #sidebar {
     /*position: fixed;*/
     margin-top: 25px;
 }
 
+/* Adding space at the top of each  decription + making the element
+ as wide as the parent container*/
 #topic_content div {
     margin-top: 25px;
     width: 100%;
 }
 
+/* Adjusting the position of the links in the footer and the footer itself*/
 footer > ul, li {
     display: inline;
 }
@@ -70,11 +71,13 @@ footer {
     background-color: #f7f7f7;
 }
 
+/* Makes the website reponsive to mobile devices by changing size and spaces*/
 @media only screen and (max-width: 550px) {
     body {
         overflow-x: hidden;
       }
 
+    /* Adjusting the width and the height of the slideshow for mobile devices*/
     #Carousel {
         margin-top: 135px;
         margin-left: -5px;
@@ -102,26 +105,28 @@ footer {
         width: 350px;
     }
 
-
+    /* Making the list as wide as the parent container and thus placing it over the descriptions at full width*/
     aside {
         width: 100%;
     }
 
-    #topic_content {
-        width: 100%;
-    }
-    
     #sidebar {
         /*position: fixed;*/
         margin-top: -10px;
     }
+
+     /* Making the descriptions as wide as the parent container*/
+    #topic_content {
+        width: 100%;
+    }
     
+    /*Adding more space at the bottom of the description content and reducing space at the top*/
     #topic_content div {
         margin-top: -10px;
         margin-bottom: 50px;
     }
 
-    footer > ul, li {
+    /*footer > ul, li {
         display: inline;
-    }
+    }*/
 }

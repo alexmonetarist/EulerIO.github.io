@@ -100,7 +100,6 @@ footer {
     /* Adjusting the width and the height of the slideshow for mobile devices*/
     #Carousel {
         margin-top: 135px;
-        margin-left: -10px;
         width: 100%;
         height: 200px;
     }  

@@ -45,7 +45,6 @@ header h2 {
 
 /* Adding space at the top of the list of topics*/
 #sidebar {
-    /*position: fixed;*/
     margin-top: 25px;
 }
 
@@ -134,7 +133,6 @@ footer {
     }
 
     #sidebar {
-        /*position: fixed;*/
         margin-top: -10px;
     }
 

@@ -125,7 +125,6 @@ footer {
         top: 0;
         left: 0;
         height: 200px;
-        /*width: 350px;*/
         width: 100%;
     }
 
@@ -149,8 +148,4 @@ footer {
         margin-top: -10px;
         margin-bottom: 50px;
     }
-
-    /*footer > ul, li {
-        display: inline;
-    }*/
 }
